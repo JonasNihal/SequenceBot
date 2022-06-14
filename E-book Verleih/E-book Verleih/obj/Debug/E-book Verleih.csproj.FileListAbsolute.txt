@@ -1,0 +1,10 @@
+C:\Users\49159\source\repos\E-book Verleih\E-book Verleih\bin\Debug\E-book Verleih.exe.config
+C:\Users\49159\source\repos\E-book Verleih\E-book Verleih\bin\Debug\E-book Verleih.exe
+C:\Users\49159\source\repos\E-book Verleih\E-book Verleih\bin\Debug\E-book Verleih.pdb
+C:\Users\49159\source\repos\E-book Verleih\E-book Verleih\obj\Debug\E-book Verleih.csproj.AssemblyReference.cache
+C:\Users\49159\source\repos\E-book Verleih\E-book Verleih\obj\Debug\E_book_Verleih.Form1.resources
+C:\Users\49159\source\repos\E-book Verleih\E-book Verleih\obj\Debug\E_book_Verleih.Properties.Resources.resources
+C:\Users\49159\source\repos\E-book Verleih\E-book Verleih\obj\Debug\E-book Verleih.csproj.GenerateResource.cache
+C:\Users\49159\source\repos\E-book Verleih\E-book Verleih\obj\Debug\E-book Verleih.csproj.CoreCompileInputs.cache
+C:\Users\49159\source\repos\E-book Verleih\E-book Verleih\obj\Debug\E-book Verleih.exe
+C:\Users\49159\source\repos\E-book Verleih\E-book Verleih\obj\Debug\E-book Verleih.pdb
