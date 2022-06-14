@@ -1,0 +1,111 @@
+CREATE DATABASE[IF NOT EXISTS] ebookverleih;
+
+CREATE TABLE ort 
+(
+	o_id int, 
+	plz int, 
+	name char(255),  
+	PRIMARY KEY (o_id)
+)
+ENGINE = INNODB;
+
+CREATE TABLE adresse 
+(
+	a_id int, 
+	straße char(255), 
+	hausnummer char(255),
+	o_id int,  
+	PRIMARY KEY (a_id),
+	FOREIGN KEY (o_id) REFERENCES ebookverleih.ort(o_id)
+)
+ENGINE = INNODB;
+
+CREATE TABLE kunde
+(
+	ku_id int,
+	vorname char(255), 
+	nachname char(255), 
+	geburtsdatum date, 
+	tele char(255), 
+	mail char(255), 
+	a_id int,
+	konto_status char(255), 
+	PRIMARY KEY (ku_id),
+	FOREIGN KEY (a_id) REFERENCES ebookverleih.adresse(a_id)
+)
+ENGINE = INNODB;
+
+CREATE TABLE verlag 
+(
+	ve_id int,
+	name char(255), 
+ 	beschreibung char(255), 
+ 	a_id int,
+ 	PRIMARY KEY (ve_id), 
+ 	FOREIGN KEY (a_id) REFERENCES ebookverleih.adresse(a_id)    	
+)
+ENGINE = INNODB;
+
+CREATE TABLE autor 
+(
+	au_id int,
+	vorname char(255), 
+    	nachname char(255),
+    	geburtsdatum date,
+ 	beschreibung char(255), 
+ 	PRIMARY KEY (au_id)  	    	
+)
+ENGINE = INNODB;
+
+CREATE TABLE genre 
+(
+	ge_id int,
+	bezeichnung char(255), 
+    	beschreibung char(255),
+ 	PRIMARY KEY (ge_id)  	    	
+)
+ENGINE = INNODB;
+
+CREATE TABLE ebook 
+(
+	eb_id int,
+	isbn char(255),
+	title char(255),
+    	beschreibung char(255),
+	erscheinungsdatum date, 
+   	au_id int,
+    	ve_id int,
+    	ge_id int,
+ 	PRIMARY KEY (eb_id),
+   	FOREIGN KEY (au_id) REFERENCES ebookverleih.autor(au_id),
+    	FOREIGN KEY (ve_id) REFERENCES ebookverleih.verlag(ve_id),
+    	FOREIGN KEY (ge_id) REFERENCES ebookverleih.genre(ge_id)
+)
+ENGINE = INNODB;
+
+CREATE TABLE favorit 
+(
+	fa_id int,
+   	eb_id int,
+    	ku_id int,
+ 	PRIMARY KEY (fa_id),
+    	FOREIGN KEY (eb_id) REFERENCES ebookverleih.ebook(ve_id),
+    	FOREIGN KEY (ku_id) REFERENCES ebookverleih.kunde(ku_id)
+)
+ENGINE = INNODB;
+
+CREATE TABLE leihverzeichnis 
+(
+	lv_id int,
+    	geliehenvon date,
+    	geliehenbis date,
+    	eb_id int,
+    	ku_id int,
+ 	PRIMARY KEY (lv_id),
+    	FOREIGN KEY (eb_id) REFERENCES ebookverleih.ebook(ve_id),
+    	FOREIGN KEY (ku_id) REFERENCES ebookverleih.kunde(ku_id)
+)
+ENGINE = INNODB;
+
+INSERT INTO ebook (eb_id, isbn, title, beschreibung, erscheinungsdatum)
+VALUES (1, '9783411905034','Duden','ein Wörterbuch', DATE('2022-03-03'));
