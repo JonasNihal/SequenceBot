@@ -1,8 +1,8 @@
-CREATE DATABASE[IF NOT EXISTS] ebookverleih;
+CREATE DATABASE IF NOT EXISTS ebookverleih;
 
 CREATE TABLE ort 
 (
-	o_id int, 
+	o_id int NOT NULL AUTO_INCREMENT, 
 	plz int, 
 	name char(255),  
 	PRIMARY KEY (o_id)
@@ -11,7 +11,7 @@ ENGINE = INNODB;
 
 CREATE TABLE adresse 
 (
-	a_id int, 
+	a_id int NOT NULL AUTO_INCREMENT, 
 	straße char(255), 
 	hausnummer char(255),
 	o_id int,  
@@ -22,9 +22,11 @@ ENGINE = INNODB;
 
 CREATE TABLE kunde
 (
-	ku_id int,
+	ku_id int NOT NULL AUTO_INCREMENT,
 	vorname char(255), 
 	nachname char(255), 
+	username char(255),
+	passwort char(255),
 	geburtsdatum date, 
 	tele char(255), 
 	mail char(255), 
@@ -37,7 +39,7 @@ ENGINE = INNODB;
 
 CREATE TABLE verlag 
 (
-	ve_id int,
+	ve_id int NOT NULL AUTO_INCREMENT,
 	name char(255), 
  	beschreibung char(255), 
  	a_id int,
@@ -48,7 +50,7 @@ ENGINE = INNODB;
 
 CREATE TABLE autor 
 (
-	au_id int,
+	au_id int NOT NULL AUTO_INCREMENT,
 	vorname char(255), 
     	nachname char(255),
     	geburtsdatum date,
@@ -59,7 +61,7 @@ ENGINE = INNODB;
 
 CREATE TABLE genre 
 (
-	ge_id int,
+	ge_id int NOT NULL AUTO_INCREMENT,
 	bezeichnung char(255), 
     	beschreibung char(255),
  	PRIMARY KEY (ge_id)  	    	
@@ -68,7 +70,7 @@ ENGINE = INNODB;
 
 CREATE TABLE ebook 
 (
-	eb_id int,
+	eb_id int NOT NULL AUTO_INCREMENT,
 	isbn char(255),
 	title char(255),
     	beschreibung char(255),
@@ -85,27 +87,103 @@ ENGINE = INNODB;
 
 CREATE TABLE favorit 
 (
-	fa_id int,
+	fa_id int NOT NULL AUTO_INCREMENT,
    	eb_id int,
     	ku_id int,
  	PRIMARY KEY (fa_id),
-    	FOREIGN KEY (eb_id) REFERENCES ebookverleih.ebook(ve_id),
+    	FOREIGN KEY (eb_id) REFERENCES ebookverleih.ebook(eb_id),
     	FOREIGN KEY (ku_id) REFERENCES ebookverleih.kunde(ku_id)
 )
 ENGINE = INNODB;
 
 CREATE TABLE leihverzeichnis 
 (
-	lv_id int,
-    	geliehenvon date,
-    	geliehenbis date,
+	lv_id int NOT NULL AUTO_INCREMENT,
     	eb_id int,
     	ku_id int,
  	PRIMARY KEY (lv_id),
-    	FOREIGN KEY (eb_id) REFERENCES ebookverleih.ebook(ve_id),
+    	FOREIGN KEY (eb_id) REFERENCES ebookverleih.ebook(eb_id),
     	FOREIGN KEY (ku_id) REFERENCES ebookverleih.kunde(ku_id)
 )
 ENGINE = INNODB;
 
-INSERT INTO ebook (eb_id, isbn, title, beschreibung, erscheinungsdatum)
-VALUES (1, '9783411905034','Duden','ein Wörterbuch', DATE('2022-03-03'));
+INSERT INTO ort (plz, name)
+VALUES ('74080','Heilbronn');
+
+INSERT INTO adresse (straße, Hausnummer, o_id)
+VALUES ('Bachstraße', 13,1);
+
+INSERT INTO adresse (straße, Hausnummer, o_id)
+VALUES ('Verlagsstraße', 5,1);
+
+INSERT INTO kunde (vorname, nachname, username, passwort, geburtsdatum, tele, mail, a_id, konto_status)
+VALUES ('Max','Mustermann','test-user','1234',DATE('1990-03-03'),'07131/123456','m.m@mustermail.com',1, 'premium');
+
+INSERT INTO verlag (name, beschreibung, a_id)
+VALUES ('Bootleg Verlag','Gute Bücher. Fast so wie das Original aber mit intersanten Twists',2);
+
+INSERT INTO verlag (name, beschreibung, a_id)
+VALUES ('Bootleg Manga','Chinesische Comics. Der Bootleg Verlag präsentiert stolz seine neue Tochterfirma',2);
+
+INSERT INTO autor (vorname, nachname, geburtsdatum, beschreibung)
+VALUES ('J.K.','Rollend',DATE('1890-01-03'),'0815 Jugendbuch Autorin');
+
+INSERT INTO autor (vorname, nachname, geburtsdatum, beschreibung)
+VALUES ('das tolle','Kind',DATE('1822-05-03'),'Einer der tollsten Fantasy-Autoren');
+
+INSERT INTO autor (vorname, nachname, geburtsdatum, beschreibung)
+VALUES ('H.P.','Liebeshandwerk',DATE('1782-09-03'),'Schreibt gruselige Bücher, hat aber einen miesen Charakter');
+
+INSERT INTO autor (vorname, nachname, geburtsdatum, beschreibung)
+VALUES ('Georg','Odergut',DATE('2000-06-15'),'Schreibt gerne über Bier');
+
+INSERT INTO autor (vorname, nachname, geburtsdatum, beschreibung)
+VALUES ('Johanes','Göde',DATE('2015-06-15'),'Deutsches Nachwuchstalent');
+
+INSERT INTO autor (vorname, nachname, geburtsdatum, beschreibung)
+VALUES ('Erich','Oder',DATE('1980-01-01'),'Zeichnet seit gefühlt 30 Jahren an der selben Reihe und ist immer noch nicht fertig');
+
+INSERT INTO genre (bezeichnung, beschreibung)
+VALUES ('Fantasy','Magische geschichten für Groß und Klein.');
+
+INSERT INTO genre (bezeichnung, beschreibung)
+VALUES ('Horror','Bücher die ihnen die Haare zu Berge stehen lassen');
+
+INSERT INTO genre (bezeichnung, beschreibung)
+VALUES ('Comedy','HAHAHAHAHAHAHAHAHA');
+
+INSERT INTO genre (bezeichnung, beschreibung)
+VALUES ('Drama','Sehr spannende Bücher, richtig dramatisch...');
+
+INSERT INTO genre (bezeichnung, beschreibung)
+VALUES ('Manga','Chinesische Comics aus Japan. Leider wurden alle Exemplare falschherum gedruckt...');
+
+INSERT INTO ebook (isbn, title, beschreibung, erscheinungsdatum, au_id, ve_id, ge_id)
+VALUES ('1234','Harald Töpfer','Zauberei und so ein Zeug',DATE('2000-12-13'),1,1,1 );
+
+INSERT INTO ebook (isbn, title, beschreibung, erscheinungsdatum, au_id, ve_id, ge_id)
+VALUES ('1235','Der Kerl mit den Ringen','voll Episch',DATE('1800-12-13'),2,1,1 );
+
+INSERT INTO ebook (isbn, title, beschreibung, erscheinungsdatum, au_id, ve_id, ge_id)
+VALUES ('1236','Der Ruf von Kuthtruluu','ey voll schwer zu buchstabieren',DATE('1800-12-13'),3,1,2 );
+
+INSERT INTO ebook (isbn, title, beschreibung, erscheinungsdatum, au_id, ve_id, ge_id)
+VALUES ('1238','Die Farm der Biere','Ups, freudscher verleser',DATE('1884-12-13'), 4 , 1 ,3 );
+
+INSERT INTO ebook (isbn, title, beschreibung, erscheinungsdatum, au_id, ve_id, ge_id)
+VALUES ('1212','Fuß','Iiiie wie das Stinkt',DATE('2021-12-13'), 5 , 1 ,4 );
+
+INSERT INTO ebook (isbn, title, beschreibung, erscheinungsdatum, au_id, ve_id, ge_id)
+VALUES ('0215','Ein Stück','lustige Piraten Abenteuer',DATE('1990-01-13'), 6 , 2 ,5 );
+
+INSERT INTO leihverzeichnis (eb_id, ku_id)
+VALUES (6,1);
+
+INSERT INTO leihverzeichnis (eb_id,ku_id)
+VALUES (3,1);
+
+INSERT INTO leihverzeichnis (eb_id,ku_id)
+VALUES (1,1);
+
+INSERT INTO favorit (eb_id,ku_id)
+VALUES (6,1);
