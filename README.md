@@ -112,16 +112,16 @@ MESSAGES = {
 - Get your [Necessary Variables](https://github.com/RioShin2025/SequenceBot/config.py)
 - git clone https://github.com/RioShin2025/SequenceBot
 - # Install Packages
-- Start Command
-- ```bash 
-- python3 webserver.py
-- ```
-- Build Command
-- ```bash
-  pip install -r requirements.txt
-- ```
+-  sᴛᴀʀᴛ ᴄᴏᴍᴍᴀɴᴅ
+```bash
+python3 webserver.py
+```
+-  ʙᴜɪʟᴅ ᴄᴏᴍᴍᴀɴᴅ
+```bash
+pip install -r requirements.txt
+```
 - Edit config.py with variables as given below then run bot
-- python3 main.py
+
 
 <p align="center">
   <img src="https://i.rj1.dev/Ccvey.png">
@@ -136,10 +136,10 @@ MESSAGES = {
 </h3>
 
 <p align="center">
-<a href="https://telegram.me/https://t.me/BOTSKINGDOMSGROUP"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/BOTSKINGDOMSGROUP"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 <p align="center">
-<a href="https://t.me/https://t.me/BOTSKINGDOMS"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/BOTSKINGDOMS"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 
 ━━━━━━━━━━━━━━━━━━━━
@@ -164,6 +164,7 @@ MESSAGES = {
 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 
 
 
