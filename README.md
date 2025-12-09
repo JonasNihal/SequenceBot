@@ -109,8 +109,8 @@ MESSAGES = {
 - <b> ᴠᴘs/ʟᴏᴄᴀʟ ᴅᴇᴘʟᴏʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ </b>
 </h3></summary>
 
-- Get your [Necessary Variables](https://github.com/RioShin2025/SequenceBot/config.py)
-- git clone https://github.com/RioShin2025/SequenceBot
+- Get your [Necessary Variables](https://github.com/RioShin2025/SequenceBot/blob/RioShin/config.py))
+- Git clone https://github.com/RioShin2025/SequenceBot
 - # Install Packages
 -  sᴛᴀʀᴛ ᴄᴏᴍᴍᴀɴᴅ
 ```bash
@@ -164,6 +164,7 @@ pip install -r requirements.txt
 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 
 
 
