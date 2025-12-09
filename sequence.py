@@ -1,3 +1,8 @@
+# ----------------------------------------
+# ᴍᴀᴅᴇ ʙʏ ʀɪᴏ sʜɪɴ | @Rioshin
+# ғᴏʀ ʙᴏᴛsᴋɪɴɢᴅᴏᴍs | @BotsKingdoms
+# ᴀɴʏ ɪssᴜᴇ ᴏʀ ᴇʀʀᴏʀ ᴅᴍ ʀɪᴏsʜɪɴ
+# ----------------------------------------
 import asyncio
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
@@ -184,6 +189,7 @@ async def cb_handler(client, query: CallbackQuery):
         except:
             pass
 app.run()
+
 
 
 
