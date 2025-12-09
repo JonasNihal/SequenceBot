@@ -11,7 +11,7 @@
 <p align="center">
 <a href="https://github.com/RioShin2025/SequenceBot/stargazers"><img src="https://img.shields.io/github/stars/RioShin2025/SequenceBot?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
 <a href="https://github.com/RioShin2025/SequenceBot/network/members"> <img src="https://img.shields.io/github/forks/RioShin2025/SequenceBot?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
-<a href="https://github.com/RioShin2025/SequenceBot/blob/yato/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
+<a href="https://github.com/RioShin2025/SequenceBot/blob/main/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
 <a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Written%20in-Python-orange?style=for-the-badge&logo=python" alt="Python" /> </a>
 <a href="https://github.com/RioShin2025/SequenceBot/commits/RioShin2025"> <img src="https://img.shields.io/github/last-commit/RioShin2025/SequenceBot?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
 </p>
@@ -157,6 +157,7 @@ MESSAGES = {
 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 
 
 
