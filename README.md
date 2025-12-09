@@ -11,7 +11,7 @@
 <p align="center">
 <a href="https://github.com/RioShin2025/SequenceBot/stargazers"><img src="https://img.shields.io/github/stars/RioShin2025/SequenceBot?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
 <a href="https://github.com/RioShin2025/SequenceBot/network/members"> <img src="https://img.shields.io/github/forks/RioShin2025/SequenceBot?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
-<a href="https://github.com/RioShin2025/SequenceBot/blob/main/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
+<a href="https://github.com/RioShin2025/SequenceBot/blob/RioShin/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
 <a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Written%20in-Python-orange?style=for-the-badge&logo=python" alt="Python" /> </a>
 <a href="https://github.com/RioShin2025/SequenceBot/commits/RioShin2025"> <img src="https://img.shields.io/github/last-commit/RioShin2025/SequenceBot?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
 </p>
@@ -141,8 +141,8 @@ MESSAGES = {
     ─「 ᴄʀᴇᴅɪᴛs 」─
 </h3>
 
-- <b>[ᴍᴀᴅᴇ ʙʏ](https://github.com/Codeflix-Bots)  ➻  [ʀɪᴏ sʜɪɴ [ᴛɢ]](https://t.me/RioShin) </b>
-- <b>[ᴘᴏᴡᴇʀᴅ ʙʏ](https://github.com/Codeflix-Bots)  ➻  [ʙᴏᴛsᴋɪɴɢᴅᴏᴍs](https://t.me/BOTSKINGDOMS) </b>
+- <b>[ᴍᴀᴅᴇ ʙʏ]([https://t.me/BOTSKINGDOMS](https://t.me/BOTSKINGDOMS))  ➻  [ʀɪᴏ sʜɪɴ [ᴛɢ]](https://t.me/RioShin) </b>
+- <b>[ᴘᴏᴡᴇʀᴅ ʙʏ]([https://t.me/BOTSKINGDOMS](https://t.me/BOTSKINGDOMS))  ➻  [ʙᴏᴛsᴋɪɴɢᴅᴏᴍs](https://t.me/BOTSKINGDOMS) </b>
 
 <h3 align="center">
 <b>🤝 ᴄᴏɴᴛʀɪʙᴜᴛɪɴɢ
@@ -152,11 +152,12 @@ MESSAGES = {
 # 📝 ʟɪᴄᴇɴsᴇ
 ›› ʏᴏᴜ ᴄᴀɴ ꜰʀᴇᴇʟʏ ʜᴏsᴛ ᴛʜɪs ʀᴇᴘᴏ ʏᴏᴜʀsᴇʟꜰ. ᴀʟʟ ᴡᴇ ᴀsᴋ ɪs ᴛʜᴀᴛ ʏᴏᴜ ᴘʀᴏᴠɪᴅᴇ ᴘʀᴏᴘᴇʀ ᴄʀᴇᴅɪᴛs ʙʏ ʟɪɴᴋɪɴɢ ᴛᴏ ᴛʜɪs ʀᴇᴘᴏsɪᴛᴏʀʏ.
 
-›› ᴛʜɪs ᴘʀᴏᴊᴇᴄᴛ ɪs ʟɪᴄᴇɴsᴇᴅ ᴜɴᴅᴇʀ ᴛʜᴇ ɢɴᴜ ɢᴇɴᴇʀᴀʟ ᴘᴜʙʟɪᴄ ʟɪᴄᴇɴsᴇ ᴠ3.0 (ɢᴘʟᴠ3).
-ʏᴏᴜ ᴀʀᴇ ꜰʀᴇᴇ ᴛᴏ ᴜsᴇ, ᴍᴏᴅɪꜰʏ, ᴀɴᴅ sʜᴀʀᴇ ɪᴛ — ʙᴜᴛ ʏᴏᴜ ᴍᴜsᴛ ᴀʟsᴏ ɢɪᴠᴇ ᴄʀᴇᴅɪᴛ ᴀɴᴅ ᴋᴇᴇᴘ ɪᴛ ᴜɴᴅᴇʀ ᴛʜᴇ ɢᴘʟ ʟɪᴄᴇɴsᴇ.
+›› ᴛʜɪs ᴘʀᴏᴊᴇᴄᴛ ɪs ʟɪᴄᴇɴsᴇᴅ ᴜɴᴅᴇʀ ᴛʜᴇ ᴍɪᴛ.
+ʏᴏᴜ ᴀʀᴇ ꜰʀᴇᴇ ᴛᴏ ᴜsᴇ, ᴍᴏᴅɪꜰʏ, ᴀɴᴅ sʜᴀʀᴇ ɪᴛ — ʙᴜᴛ ʏᴏᴜ ᴍᴜsᴛ ᴀʟsᴏ ɢɪᴠᴇ ᴄʀᴇᴅɪᴛ ᴀɴᴅ ᴋᴇᴇᴘ ɪᴛ ᴜɴᴅᴇʀ ᴛʜᴇ ᴍɪᴛ ʟɪᴄᴇɴsᴇ.
 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 
 
 
