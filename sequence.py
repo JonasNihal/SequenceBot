@@ -107,7 +107,7 @@ async def store_file(client, message):
             "chat_id": message.chat.id
         })
 
-        await message.reply_text("<blockquote>ғɪʟᴇ ᴀᴅᴅᴇᴅ! ᴜsᴇ /ᴇsᴇǫᴜᴇɴᴄᴇ ᴛᴏ enᴅ.<blockquote>")
+        await message.reply_text("<blockquote>ғɪʟᴇ ᴀᴅᴅᴇᴅ! ᴜsᴇ /esequence ᴛᴏ enᴅ.<blockquote>")
     else:
         await message.reply_text("<blockquote>sᴛᴀʀᴛ sᴇǫᴜᴇɴᴄᴇ ᴡɪᴛʜ /ssequence ғɪʀsᴛ.<blockquote>")
 
@@ -189,6 +189,7 @@ async def cb_handler(client, query: CallbackQuery):
         except:
             pass
 app.run()
+
 
 
 
