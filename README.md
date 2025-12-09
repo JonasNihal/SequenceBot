@@ -110,7 +110,7 @@ MESSAGES = {
 </h3></summary>
 
 - Get your [Necessary Variables](https://github.com/RioShin2025/SequenceBot/config.py)
-- git clone https://github.com/Codeflix-Bots/filestore
+- git clone https://github.com/RioShin2025/SequenceBot
 - # Install Packages
 - pip3 install -U -r requirements.txt
 - Edit config.py with variables as given below then run bot
@@ -157,6 +157,7 @@ MESSAGES = {
 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 
 
 
